@@ -3,14 +3,14 @@
   "version": "2.5.1",
   "description": "Customizable WhatsApp Bot",
   "depecrated": false,
-  "main": "index.js",
+  "main": "main.js",
   "directories": {
     "lib": "lib",
     "src": "src",
     "plugins": "plugins"
   },
   "scripts": {
-    "start": "nodemon -x node index.js || touch index.js",
+    "start": "nodemon -x node main.js || touch main.js",
     "test": "node test.js"
   },
   "nodemonConfig": {
